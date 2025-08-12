@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #303030;
+    color: whitesmoke;
+    padding: 10px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.user-details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header input {
+    padding: 10px;
+    border: none;
+    height: 40px;
+    align-items: center;
+    border-radius: 25px;
+}
+header button {
+    background-color: beige;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+}
+header #user {
+    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: #9e9c9c;
+    color: #303030;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner{
+    background-image: url(pexels-mikebirdy-3729464.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* background-attachment: fixed; */
+    margin: auto;
+    
+    
+}
+.banner img{
+    width: 500px;
+    /* height: 300px; */
+    margin-top: 10%;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    
+    
+
+}
+.banner h1{
+    color: whitesmoke;
+    padding-top: 15px;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black
+}
+#car-details, #manufacturer, #about-us, #choose-us, #interested{
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+.buttoncontainer{
+    text-align: center;
+    margin: 10px;
+    
+}
+.buttoncontainer button{
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+   
+}
+.buttoncontainer a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: #303030;
+    color: #f4f4f4;
+
+}
